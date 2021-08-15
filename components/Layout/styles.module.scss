@@ -1,0 +1,13 @@
+@import "../../styles/mixins";
+
+.layout {
+    position: relative;
+    margin: 0 8vw;
+    min-height: 100%;
+    .children{
+        min-height: 70vh;
+    }
+    @include respond-below(sm){
+        margin: 0 2vw;
+    }
+  }
