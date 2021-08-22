@@ -1,0 +1,26 @@
+@import "../../styles/colors";
+@import "../../styles/mixins";
+
+
+.header{
+  height: 60vh;
+  background-image: url("/images/dots-bg.svg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  @include respond-below (sm){
+    height: 40vh;
+  }
+  .title {
+    margin: 0 auto;
+    font-family: "Didot", serif;
+    font-size: 6em;
+    font-weight: lighter;
+    text-align: center;
+    @include respond-below(sm) {
+      font-size: 3em;
+    }
+  }
+}
+

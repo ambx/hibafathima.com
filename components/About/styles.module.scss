@@ -1,0 +1,23 @@
+@import "../../styles/colors";
+@import "../../styles/mixins";
+
+.container {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  align-items: center;
+  @include respond-below(sm) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  p {
+    width: 70%;
+    text-align: justify;
+    letter-spacing: 0.05em;
+    line-height: 32px;
+    @include respond-below(sm) {
+      width: 100%;
+    }
+  }
+}

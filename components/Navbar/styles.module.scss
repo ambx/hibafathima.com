@@ -17,7 +17,8 @@
   a:hover {
     color: $accent;
   }
-  @include respond-below(sm) {
-    font-size: 0.75em;
+  @include respond-below(sm){
+      font-size: 0.75em;
+      gap: 15px;
   }
 }
