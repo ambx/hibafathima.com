@@ -1,9 +1,0 @@
-@import "../../styles/colors";
-@import "../../styles/mixins";
-
-.aboutImage{
-    height: 20vw;
-    max-height: 350px;
-    @include respond-below(md){
-        display: none;
-}}

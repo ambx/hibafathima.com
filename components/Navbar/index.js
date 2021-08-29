@@ -9,9 +9,6 @@ export default function Navbar() {
       <li className={styles.navbarItem}>
         <a href="https://almost.hibafathima.com/">blog</a>
       </li>
-      <li className={styles.navbarItem}>
-        <a href="">contact</a>
-      </li>
     </nav>
   );
 }
